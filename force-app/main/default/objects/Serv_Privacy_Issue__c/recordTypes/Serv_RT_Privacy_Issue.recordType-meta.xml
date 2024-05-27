@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Serv_RT_Privacy_Issue</fullName>
+    <active>true</active>
+    <label>Privacy Issue</label>
+    <picklistValues>
+        <picklist>Is_there_a_PIPEDA_Violation__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PIPEDA_Principle__c</picklist>
+        <values>
+            <fullName>Address Concerns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Be Accountable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Be Accurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Be Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify the Purpose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limit Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limit Use%2E Disclosure and Retention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obtain Consent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provide Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Use Appropriate Safeguards</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Case_Reason__c</picklist>
+        <values>
+            <fullName>Account%2C card or ECIF issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collection of information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit bureau error or inaccuracy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do not solicit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do not use - data device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do not use - employee concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email%2C text or fax issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info lost%2C stolen or given to wrong person</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail - opened%2C unsealed or wrong info in envelope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail - unopened</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online or mobile banking %2F cheque imaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PIPEDA request - ERMO use only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premises</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premises - privacy concern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal disclosure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Severity__c</picklist>
+        <values>
+            <fullName>Material Privacy Breach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Privacy Breach</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed %22No Contact%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed by Privacy Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed with Client Care Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outstanding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
