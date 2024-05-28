@@ -7,6 +7,14 @@
       "versionName": "ver 0.1",
       "versionNumber": "0.1.0.NEXT",
       "versionDescription": ""
+    },
+    {
+      "path": "force-app",
+      "package": "MyUnlockedPackage2",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "name": "myTestUnlockedPackage",
@@ -15,6 +23,7 @@
   "sourceApiVersion": "59.0",
   "packageAliases": {
     "MyUnlockedPackage": "0HoJ1000000k9bNKAQ",
-    "MyUnlockedPackage@0.1.0-1": "04tJ1000000gNXwIAM"
+    "MyUnlockedPackage@0.1.0-1": "04tJ1000000gNXwIAM",
+    "MyUnlockedPackage2": "0HoHp0000010wtIKAQ"
   }
 }
